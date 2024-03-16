@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+}
+.pehlaform{
+   text-align: center;
+   width: 35vw;
+  padding: 50px 0;
+   margin: 200px auto 0;
+   color: white;
+   background-color: black;
+   
+}
+.username, .password{
+    width: 300px;
+    height: 100px;
+    display: inline;
+    position: relative;
+    margin: 20px;
+}
+
+
+#btn{
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    width: 30%;
+}
+input{
+    padding: 10px 50px;
+    border-radius: 20px;
+    background: lightblue;
+
+}
+i{
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    font-size: 25px;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+
+
+</style>
+<body>
+
+<form action="" class="pehlaform">
+
+<h1>USER LOGIN</h1>
+<div class="username">
+    <i class="fa-solid fa-user"></i><input type="text" placeholder="Username" required> <br>
+    </div>
+    <div class="password">
+    <i class="fa-solid fa-lock"></i><input type="password" placeholder="Password" required>
+</div>
+
+<div>
+    <input type="button" value="Login" id="btn">
+</div>
+
+    </form>
+</body>
+</html>
